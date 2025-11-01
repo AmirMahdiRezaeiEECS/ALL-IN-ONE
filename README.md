@@ -1,1 +1,1 @@
-# ALL-IN-ONE-
+# ALL-IN-ONE
