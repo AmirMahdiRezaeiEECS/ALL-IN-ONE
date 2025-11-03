@@ -14,11 +14,11 @@
 «one of the keys to apple is apple's an incredibly collaborative company and so you know how many committees we have at apple no zero we have no committees no committees we are a ver we are organized like a startup one person is in charge of iphone os software one person is in charge of mac hardware one person is in charge of iphone hardware engineering another person is in charge of worldwide marketing another person is in charge of operations it's we're organized like a startup we're the biggest startup on the planet and we all meet for three hours once a week and we talk about everything we're doing the whole business and there's tremendous teamwork at the top of the company which filters down to tremendous teamwork throughout the company and teamwork is dependent on trusting the other folks to come through with their part without watching them all the time but trusting that they're going to come through with their parts and that's what we do really well and we're great at figuring out how to divide things up into these great teams that we have and all work on the same thing touch bases frequently and bring it all together into a product we do that really well and so what i do all day is meet with teams of people and work on ideas and solve problems to make new products to make new marketing programs whatever it is and are people willing to tell you you're wrong yeah i mean other than snarky journalists i mean people are working yeah no we have wonderful arguments and do you win them all or oh no i wish i did i'll see you can't if you want to hire great people and have them stay working for you you have to let them make a lot of decisions and you have to you have to be run by ideas not hierarchy the best ideas have to win so otherwise good people don't stay but you must be more than a facilitator who runs meetings you obviously contribute your own ideas i contribute ideas sure why would i be there if i didn't»
 
 
-⸻
+---
 
 I want to design the company’s management and task allocation system based on object-oriented programming principles, and I will do it following Steve Jobs’ management style.
 
-⸻
+---
 
 🔷 Conceptual Core of “ALL IN ONE”
 
@@ -33,7 +33,7 @@ This mirrors the OOP philosophy:
 	•	Each object exposes a clear interface (defined points of interaction).
 	•	The system architecture defines how these interfaces collaborate under shared rules.
 
-⸻
+---
 
 2. Philosophical Foundation
 
@@ -50,9 +50,7 @@ Steve Jobs’ method of leading Apple — “no committees, full responsibility,
 | Tight unity through shared vision | Unified architecture and design patterns |
 | Organized like a startup — small teams, high agility | Modular, loosely coupled, high cohesion components |\
 
-
-
-⸻
+---
 
 3. Meta-Strategy: OOP as an Organizational Operating System
 
@@ -70,21 +68,21 @@ These modules interact through well-defined interfaces, abstract base classes, a
 🔹 Level 2: Team-Level OOP Architecture
 
 Each team = an object instance in the company’s organization.
-	•	Their attributes are their expertise, datasets, and goals.
+	•	Their attributes are their expertise & goals.
 	•	Their methods are their internal workflows.
 	•	Their interface is how they expose results or collaborate with other teams.
 	•	Their inheritance hierarchy comes from your strategic layers — for example, “All vision models inherit from BaseVisionModule.”
 
-This allows the company itself to scale like software — without losing unity.
+ This approach allows the company itself to scale like software — without losing unity — while also creating transparency about which part of the organization is responsible for which part of the code.
 
-⸻
+---
 
 4. Strategic Structure for Our Learning Path
 
-Given this, our OOP learning and design path should proceed in three layers — aligned with your “ALL IN ONE” philosophy:
+Given this, our OOP learning and design path should proceed in three layers — aligned with “ALL IN ONE” philosophy:
 
 Phase 1 — Strategic Layer (Organizational OOP)
-We’ll model your organization using OOP and SOLID logic:
+We’ll model our organization using OOP and SOLID logic:
 	•	Each team’s scope = one class.
 	•	Each collaboration = an interface.
 	•	Each leadership principle = a design pattern (e.g., Strategy, Observer, Mediator).
@@ -92,7 +90,7 @@ We’ll model your organization using OOP and SOLID logic:
 Deliverable:
 → A Team Architecture Diagram showing how independence + unity coexist through OOP principles.
 
-⸻
+---
 
 Phase 2 — System Architecture Layer (Software OOP)
 We’ll design the technical structure of the entire “ALL IN ONE” AI system:
@@ -105,7 +103,7 @@ We’ll design the technical structure of the entire “ALL IN ONE” AI system:
 Deliverable:
 → A Software Architecture Blueprint, written in OOP UML-like format.
 
-⸻
+---
 
 Phase 3 — Foundation Layer (Philosophical & Historical)
 We’ll trace how OOP evolved as a response to complexity — to clarify why your approach is not just clever but inevitable for large-scale AI ecosystems.
@@ -115,16 +113,10 @@ Deliverable:
 
 
 
-
-
-
-
-باید کار را به بخش های کوچک تر تقسیم کنیم . هر بخش رو به تیمی واگذار کنیم . مسئولیت های هر فرد یا تیم باید واضع و شفاف باشند . هر تیم مستقل عمل می‌کند، اما همه زیر چتر "ALL IN ONE" متحد هستند.
-
+---
 
 
   
-هر بخش باید فرض کند که مسئولین بخش های دیگر علم کافی در مورد این بخش ندارند . پس مسئولین این بخش سه مسئولیت مهم دارند . اول اینکه تا جای ممکن پیچیدگی بخش خودشان را در درون بخش نگه دارند و به بخش های دیگر سرایت ندهند و همکاری دیگر بخش ها با بخش خودشان را تا جای ممکن تسهیل کنند . دوم اینکه کار با بخش خودشان را بر اساس استاندارد هایی جلو ببرند که در بلند مدت پایدار بمانند . این استاندارد ها باید به گونه ای طراحی شوند که تغییر در این بخش ، تغیری در عملکرد بخش های دیگر ایجاد نکند .و سوم اینکه کار با بخش خودشان را به بخش های دیگر آموزش دهند .  
 
 
 
@@ -132,13 +124,7 @@ Deliverable:
 
 
 
-**فعلا برای ساخت نسخه اول، فقط یک نسخه حداقلی (Minimum Viable Product) که کامل باشه و کار کنه خواهیم ساخت و بخش‌های کم‌اهمیت که به کارکرد کلی برنامه آسیبی نمی‌زنن، به نسخه دوم واگذار خواهند شد.**
 
-
-### 📌 نکات و الزامات
-
-- **برای ذخیره داده باید از فرمت داده JSON استفاده کرد، کلیه فایل‌های دیگر نیز (PDF، تصاویر و ...) باید در فولدر مربوطه ذخیره شود و مسیر آن‌ها در صورت نیاز در فایل‌های JSON جایگذاری شوند.**
-- **اصل ماژولار بودن و شیءگرایی رعایت شود.**
 
 
 ## زبان و ابزارها
@@ -148,6 +134,9 @@ Deliverable:
 -  **دیتابیس**: فایل‌های JSON
 - **محیط کاربری**: Command Line Interface (CLI)
 - **ذخیره‌ی فایل‌ها**: PDF، JPG در پوشه‌های مربوطه، مسیرشان در JSON نگهداری می‌شود.
+- **برای ذخیره داده باید از فرمت داده JSON استفاده کرد، کلیه فایل‌های دیگر نیز (PDF، تصاویر و ...) باید در فولدر مربوطه ذخیره شود و مسیر آن‌ها در صورت نیاز در فایل‌های JSON جایگذاری شوند.**
+
+
 
 
 ## تعریف عملکردها و بخش‌های اصلی سیستم
@@ -160,15 +149,36 @@ Deliverable:
 
 ## روش برنامه‌نویسی ما
 
+
 من دانش و تجربه زیادی در پایتون ندارم. کمی پایتون بلدم و کمی OOP بلدم اما در عین حال، پروژه سختی در پیش داریم. پس باید از اصول زیر پیروی کنیم:
+
 
 ### سادگی + قابلیت نگهداری و توسعه بالا
 با توجه به اینکه من برنامه‌نویس حرفه‌ای نیستم، باید از کدهای ساده استفاده کنیم اما کدها رو به شکلی قابل نگهداری و توسعه بنویسیم که قابلیت نگهداری و توسعه داشته باشند.
 
-### شیءگرایی و ماژولاریتی
-**مهم‌ترین مسئله در روش برنامه‌نویسی ما، شیءگرایی و ماژولاریتی برنامه است. این برای من خیلی خیلی مهمه. باید یک کتابخانه یا پکیج بنویسیم که کلاس‌ها، توابع و ... که قراره در کد اصلی‌مون استفاده کنیم رو اونجا بسازیم. چون می‌خواهم کد اصلی خیلی تمیز و مختصر باشه و پیچیدگی‌های کد در یک جا متمرکز نشه؛ پس باید هر بخش رو ساده طراحی کنیم و از کنار هم قرار دادن بخش‌های ساده (با استفاده از ماژول‌هایی که نوشتیم)، بخش‌های پیچیده‌تر رو بسازیم.**
+---
 
-### نسخه اولیه حداقلی قابل نگهداری و توسعه
+### **Object-Oriented Design and Modularity**
+
+
+**The most important aspect of our programming methodology is object-oriented design and modularity. This is extremely important to me.**
+
+We must create a library or package that contains the classes, functions, and other components we will use in the main codebase. The goal is to keep the main code clean, concise, and free from scattered complexity. Each part of the system should be designed to be simple, and complex functionality should emerge from the composition of these simple, well-defined modules.
+
+**Each module (or department) must assume that the leaders of other modules do not have sufficient knowledge about its internal details. Therefore, the leaders of each module have three key responsibilities:**
+
+1. **Encapsulation of complexity:** They must keep the complexity of their own module contained within it, preventing unnecessary dependencies and ensuring that collaboration with other modules is as simple and seamless as possible.
+    
+2. **Sustainable standards:** They must operate according to standards that remain stable over the long term. These standards should be designed so that changes within one module do not affect the functionality of others.
+    
+3. **Knowledge sharing:** They must actively teach and document how other modules can interact effectively with their module.
+
+
+
+---
+
+### نسخه اولیه حداقلی قابل نگهداری و توسعه (MVP)
+
 **نسخه‌های اولیه برنامه باید ساده و حداقلی باشد. بخش‌هایی از برنامه که به عملکرد کلی برنامه صدمه وارد نمی‌کنند ناقص باقی بمانند اما به شکلی ماژولار و قابل توسعه نوشته شوند که در نسخه‌های بعدی قابلیت کامل کردن داشته باشند. در عین حال، بخش‌های اصلی برنامه باید کامل باشند عملکرد کلی برنامه باید حتی در اولین نسخه، تضمین شود. یعنی اگر چه برخی بخش‌ها ناقص هستند اما برنامه باید به‌طور کامل اجرا شود.**
 
 بعد از ساخت نسخه اولیه، نسخه به نسخه، بخش‌های ناقص اسکلت اولیه را کامل خواهیم کرد.
