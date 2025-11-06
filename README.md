@@ -379,6 +379,7 @@ We can express A1’s structure using two orthogonal decompositions:
 | ------------------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Vertical (Thematic / Product Axis)**      | _Inheritance & Composition_          | Teams working toward a common _end-product_ (e.g., Vision AI pipeline) are structured hierarchically and collaboratively.                                        |
 | **Horizontal (Functional / Platform Axis)** | _Interfaces & Abstract Base Classes_ | Teams working on _different_ projects but sharing methodology (e.g., training, evaluation, data handling) are unified through _shared interfaces_ and standards. |
+
 So A1 will have:
 
 - **Vertical unity** for product-level cohesion (e.g., one “project tree” per product).
